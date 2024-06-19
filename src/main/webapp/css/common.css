@@ -1,10 +1,3 @@
-/*
-* @Author: WCM
-* @Date:   2018-01-27 15:13:13
-* @Last Modified by:   WCM
-* @Last Modified time: 2018-01-27 15:17:57
-*/
-
 /*css 初始化 */
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
     margin: 0;
@@ -56,7 +49,7 @@ table {
 }
 
 .clearfix {
-    *zoom: 1; /*IE/7/6*/  /*兼容IE6下的写法*/
+    *zoom: 1;
 }
 a {
     text-decoration: none;
@@ -139,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 400px;
     height: 36px;
-    border: 2px solid #ffc900;
+    border: 2px solid #dc3636;
     padding-left: 10px;
 }
 
@@ -151,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 90px;
     height: 40px;
-    background: #ffc900;
+    background: #dc3636;
     text-align: center;
     line-height: 40px;
     color: #000;
@@ -193,14 +186,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hot_num {
-    color: #ffc900;
+    color: #dc3636;
     font-size: 18px;
 }
 
 .navitem {
     width: 100%;
     height: 40px;
-    background: #ffc900;
+    background: #dc3636;
 }
 
 .nav {
@@ -224,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-active {
-    background-color: #ffd800;
+    background-color: #dc3636;
 }
 
 .nav>li>a {   
@@ -290,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 38px;
     line-height: 38px;
-    background: #ffc900;
+    background: #dc3636;
     color: #3d3d3f;
     text-align: center;
     font-size: 12px;
@@ -314,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px;
 }
 .pageNum ul li.curPage {
-    background-color: #ffc900;
+    background-color: #dc3636;
 }
 .pageNum ul li a {
   width: 100%;

@@ -50,7 +50,7 @@ a{
 .contant .shaixuan>button {
     width: 110px;
     height: 30px;
-    background-color: #ffc900;
+    background-color: #dc3636;
     text-align: center;
     line-height: 30px;
     border-radius: 3px;
@@ -86,7 +86,7 @@ a{
     float: left;
     margin-top: 50px;
     margin-right: 20px;
-    background-color: #ffc343;
+    background-color: #dc3636;
 }
 
 .contant .list li .one {

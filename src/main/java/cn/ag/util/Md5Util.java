@@ -58,9 +58,9 @@ public final class Md5Util {
 	 * 测试
 	 */
 	public static void main(String[] args) throws Exception{
-		String password = "123456";
+		String password = "12345678";
 		String passwordMD5 = Md5Util.encodeByMd5(password);
-		System.out.println(password);
-		System.out.println(passwordMD5);
+		System.out.println("加密前:"+password);
+		System.out.println("加密后:"+passwordMD5);
 	}
 }

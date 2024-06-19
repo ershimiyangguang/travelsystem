@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>黑马旅游网-登录</title>  
+    <title>登录</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -31,7 +31,7 @@
         <div class="login-box">
         	<div class="title">
         		<img src="images/login_logo.png" alt="">
-        		<span>欢迎登录黑马旅游账户</span>
+        		<span>欢迎登录</span>
         	</div>
         	<div class="login_inner">
 				
@@ -40,7 +40,7 @@
 				<form id="loginForm" action="" method="post" accept-charset="utf-8">
         			<input type="hidden" name="action" value="login"/>
 					<input name="username" type="text" placeholder="请输入账号" autocomplete="off" id="username">
-        			<input name="password" type="text" placeholder="请输入密码" autocomplete="off" id="password">
+        			<input name="password" type="password" placeholder="请输入密码" autocomplete="off" id="password" >
         			<div class="verify">
 					<input name="check" type="text" placeholder="请输入验证码" autocomplete="off">
 					<span><img src="checkCode" alt="" onclick="changeCheckCode(this)"></span>
@@ -55,14 +55,14 @@
         				<button type="button" id="login_btn">登录</button>
         				<div class="auto_login">
 							<input type="checkbox" name="auto_login" class="checkbox" >
-        					<span>自动登录</span>
+        					<span style="font-size: 12px">自动登录</span>
         				</div>        				
         			</div>        			       		
         		</form>
-        		<div class="reg">没有账户？<a href="javascript:;">立即注册</a></div>
+        		<div class="reg">没有账户？<a href="register.html">立即注册</a></div>
         	</div>
         </div>
-    </section>re
+    </section>
     <!--引入尾部-->
     <div id="footer"></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

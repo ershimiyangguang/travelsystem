@@ -73,9 +73,10 @@
                         <a  class="btn" id="removefavorite" onclick="removeFavorite();"><i class="glyphicon glyphicon-heart-empty"></i>取消收藏</a>
                         <span id="favoriteCount">已收藏100次</span>
                     </p>
-                    <div class="buy">
+                    <div class="buy" onclick="buy()">
                         点击购买
                     </div>
+                    <div id="submit"></div>
                 </div>        
             </div>
         </div>
@@ -299,6 +300,22 @@
         })
 
 
+    }
+    function buy() {
+        let sumPrice=$("#price").text();
+        let temp_form = document.createElement("form");
+        temp_form.action="AlipayServlet";
+        temp_form.target="_self";
+        temp_form.method="post";
+        temp_form.style.display="none";
+        let opt = document.createElement("input");
+        opt.name="price";
+        opt.value=sumPrice;
+        temp_form.appendChild(opt);
+        let submit = document.getElementById("submit");
+        submit.appendChild(temp_form);
+        temp_form.submit();
+        submit.innerHTML="";
     }
 
 

@@ -20,7 +20,7 @@ public class activeUserServlet extends HttpServlet {
           boolean flag=userService.active(code);
             String msg=null;
           if(flag){
-              msg="激活成功<a href='http://localhost/travel/login.html'>登录</a>";
+              msg="激活成功<a href='http://localhost:8080/travel/login.html'>登录</a>";
           }else{
               msg="激活失败！请重新激活~~~";
           }
